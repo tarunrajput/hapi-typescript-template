@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "outDir": "dist",
+      "target": "ES2018",
+      "strict": true,
+      "lib": ["esnext"],
+      "esModuleInterop": true,
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/**.ts", "server.ts"],
+    "exclude": ["node_modules"]
+  }
